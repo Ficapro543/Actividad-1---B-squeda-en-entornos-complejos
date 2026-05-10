@@ -102,7 +102,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -141,11 +140,10 @@ INPUT .\logoU (2).png
 INPUT .\logoU (2).png
 INPUT .\logoU (2).png
 INPUT .\logoU (2).png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcbx2488.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcbx1728.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
@@ -224,8 +222,8 @@ INPUT comparacion.aux
 INPUT .\conclusiones.aux
 INPUT .\conclusiones.aux
 INPUT conclusiones.aux
-INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx2488.pk
-INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx2488.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1728.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1728.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
