@@ -1,9 +1,29 @@
 \section{Conclusiones}
 
-Se resumen los hallazgos principales del trabajo, destacando que el tipo de problema determina el algoritmo o enfoque más adecuado.
+El análisis integral de los cuatro problemas permite concluir que la arquitectura de un sistema logístico inteligente debe ser multinivel, donde cada módulo requiere un tratamiento matemático y algorítmico diferenciado según el tipo de incertidumbre y la topología del espacio de búsqueda.
 
-\subsection{Conclusión general}
-La elección de la estrategia depende de si el problema es de optimización, continuo, no determinista o parcialmente observable.
+\subsection{Conclusión general: Taxonomía de la Búsqueda}
 
-\subsection{Aporte del análisis}
-Se resalta la importancia de modelar bien el problema antes de aplicar un algoritmo.
+A través del estudio de estos casos, se ha demostrado que la elección del algoritmo no es arbitraria, sino que responde a una jerarquía de complejidad:
+
+\begin{itemize}
+    \item \textbf{Gestión de la Complejidad Combinatoria:} En el problema del TSP, se concluye que ante espacios de estados de tamaño $n!$, la búsqueda exhaustiva es computacionalmente intratable. El \textbf{Temple Simulado} se consolida como una estrategia robusta al introducir un componente estocástico ($e^{-\Delta E / T}$) que permite al sistema sacrificar beneficios inmediatos en favor de una exploración global, superando así la miopía de los algoritmos de gradiente simple.
+    
+    \item \textbf{Precisión en el Continuo:} El paso de espacios discretos a continuos ($\mathbb{R}^n$) exige una transición de la lógica de permutación a la lógica del cálculo. El \textbf{Descenso de Gradiente Aproximado} demuestra que es posible optimizar infraestructuras físicas con precisión nanométrica sin necesidad de discretizar el entorno, lo cual evita el error de cuantización inherente a las mallas o rejillas.
+    
+    \item \textbf{Resiliencia ante el No Determinismo:} La realidad logística está sujeta a fallos mecánicos y ambientales. El análisis del Problema 3 concluye que la eficiencia de un plan no sirve de nada si no es \textbf{robusta}. Los árboles AND-OR y la planificación condicional transforman el concepto de "ruta" en "política", permitiendo que el agente mantenga su operatividad incluso cuando las acciones no producen el resultado esperado.
+    
+    \item \textbf{Razonamiento bajo Incertidumbre Epistémica:} El Problema 4 representa el desafío más alto: la falta de información sobre el estado propio. Se concluye que en entornos parcialmente observables, el robot debe tratar su "ignorancia" como una variable de estado más. La búsqueda en el \textbf{Espacio de Creencias} permite que el agente realice acciones puramente perceptivas para reducir la entropía del sistema antes de ejecutar movimientos críticos.
+\end{itemize}
+
+\subsection{Aporte del análisis: Modelado como Pilar de la IA}
+
+El aporte fundamental de este trabajo es la validación de que el \textbf{modelado del estado y la transición} es más crítico que la implementación del código en sí. 
+
+\begin{enumerate}
+    \item \textbf{Dualidad Exploración-Explotación:} Se ha identificado que tanto en el Temple Simulado como en la búsqueda con incertidumbre, existe un equilibrio necesario entre buscar soluciones nuevas y refinar las existentes.
+    \item \textbf{Información como Recurso:} El análisis de observabilidad parcial revela que, en logística moderna, la información recibida por los sensores es tan valiosa como el paquete transportado. Un sistema que no actualiza su creencia está condenado a la colisión o a la ineficiencia.
+    \item \textbf{Escalabilidad y Adaptabilidad:} Mientras que los métodos clásicos fallan al aumentar las dimensiones del problema, los enfoques propuestos (heurísticas, gradientes y planes condicionales) ofrecen una ruta clara hacia la automatización de almacenes de gran escala donde el error es una variable constante y no una excepción.
+\end{enumerate}
+
+Finalmente, se establece que un sistema inteligente integral debe ser capaz de alternar entre estos paradigmas: optimizar rutas en frío, ajustar posiciones en caliente, prever fallos en la ejecución y autolocalizarse ante la ambigüedad sensorial.

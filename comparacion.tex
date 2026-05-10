@@ -1,14 +1,45 @@
 \section{Comparación de estrategias}
 
-En esta sección se comparan los cuatro enfoques y se justifica por qué una misma técnica no sirve igual para todos los casos.
+En esta sección se analizan las diferencias fundamentales entre los cuatro enfoques implementados para el Sistema Inteligente de Logística y se justifica técnicamente por qué la naturaleza de cada problema exige una estrategia específica.
 
 \subsection{Comparación general}
+
+La elección del algoritmo depende de tres factores críticos: la naturaleza del espacio de estados (discreto o continuo), el determinismo de las acciones y el grado de observabilidad del entorno.
+
 \begin{itemize}
-    \item Optimización y búsqueda local: útil cuando se busca mejorar una solución.
-    \item Espacios continuos: necesario cuando las variables toman valores reales.
-    \item No determinismo: requiere planes condicionales.
-    \item Observabilidad parcial: exige razonar con incertidumbre.
+    \item \textbf{Optimización y Búsqueda Local (Temple Simulado):} Se aplica en problemas \textbf{discretos y deterministas}. Su objetivo es navegar un espacio combinatorio masivo ($n!$) para encontrar una solución óptima o cuasi-óptima mediante la mejora iterativa.
+    \item \textbf{Espacios Continuos (Descenso de Gradiente):} Necesario cuando las variables toman valores reales (coordenadas $x, y$). A diferencia de los espacios discretos, aquí el movimiento se guía por la pendiente de una función de costo.
+    \item \textbf{Acciones No Deterministas (Árboles AND-OR):} Reclama el uso de \textbf{planes condicionales} cuando una acción puede tener múltiples resultados. El sistema debe prever contingencias ante fallos o eventos aleatorios.
+    \item \textbf{Observabilidad Parcial (Espacio de Creencias):} Exige razonar con \textbf{incertidumbre sobre el estado actual}. El agente no conoce su ubicación exacta y debe actuar para reducir su ignorancia mediante la actualización de probabilidades.
 \end{itemize}
 
 \subsection{Justificación de la elección}
-Explicar por qué cada estrategia se adapta mejor a su problema correspondiente.
+
+A continuación, se detalla por qué cada estrategia se adapta mejor a su problema correspondiente:
+
+\subsubsection{Temple Simulado vs. Búsqueda Exhaustiva (Problema 1)}
+En la optimización de rutas (TSP), el espacio de búsqueda crece de forma factorial. Mientras que una búsqueda exhaustiva es computacionalmente inviable, el \textbf{Temple Simulado} permite explorar el espacio de manera eficiente. Su ventaja reside en el factor de probabilidad $P = e^{-\Delta E / T}$, que permite aceptar temporalmente soluciones peores para escapar de óptimos locales, garantizando una mejor exploración que el simple ascenso de colina.
+
+\subsubsection{Descenso de Gradiente vs. Discretización (Problema 2)}
+Para la ubicación de puntos de recarga, el espacio es infinito e incontable ($\mathbb{R}^n$). Discretizar el mapa en una rejilla (grid) conlleva una pérdida de precisión o un aumento excesivo del coste computacional. El \textbf{Descenso de Gradiente Aproximado} permite una convergencia suave hacia el mínimo real de la función de distancia, superando las limitaciones de resolución de cualquier malla fija.
+
+\subsubsection{Planes Condicionales vs. Secuencias Fijas (Problema 3)}
+En un almacén donde las acciones pueden fallar (ej. un robot que resbala o una puerta bloqueada), una secuencia lineal de comandos es frágil. La estructura de \textbf{Árbol AND-OR} permite generar un plan robusto que contempla todas las ramificaciones posibles. El robot no se detiene ante un error; simplemente ejecuta la rama del plan correspondiente al resultado observado.
+
+\subsubsection{Búsqueda en Creencias vs. Estados Exactos (Problema 4)}
+Cuando los sensores son limitados o ruidosos, el robot no puede asegurar su estado real. El enfoque de \textbf{Espacio de Creencias} es superior porque permite representar un conjunto de estados posibles. Cada acción no solo busca acercarse al objetivo, sino también maximizar la ganancia de información para "colapsar" la creencia en un estado más certero, algo imposible de gestionar con búsqueda tradicional.
+
+\subsection{Cuadro Comparativo de Características}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{Característica} & \textbf{Optimización} & \textbf{Espacio Cont.} & \textbf{No Determ.} & \textbf{Parc. Obs.} \\ \midrule
+\textbf{Algoritmo}      & Temple Simulado      & Gradiente              & Árbol AND-OR        & Esp. Creencias      \\
+\textbf{Espacio}        & Discreto ($n!$)      & Continuo ($\mathbb{R}^n$) & Discreto            & Híbrido             \\
+\textbf{Incertidumbre}  & Ninguna              & Ninguna                & En el efecto        & En el estado        \\
+\textbf{Salida}         & Ruta única           & Coordenadas            & Plan de contingencia & Política            \\ \bottomrule
+\end{tabular}
+\caption{Resumen técnico de las estrategias aplicadas.}
+\end{table}
