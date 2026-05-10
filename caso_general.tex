@@ -1,0 +1,51 @@
+% =========================
+% Archivo: caso_general.tex
+% =========================
+
+\section{Descripción general del caso}
+
+Una empresa de logística y automatización busca implementar un sistema inteligente capaz de operar tanto en una red de distribución entre ciudades como dentro de un almacén automatizado. El sistema debe resolver distintos tipos de problemas relacionados con optimización, planificación y toma de decisiones bajo incertidumbre.
+
+La empresa enfrenta cuatro situaciones principales que requieren enfoques diferentes de inteligencia artificial y búsqueda.
+
+La primera situación consiste en optimizar rutas de visita entre varias ciudades. El objetivo es encontrar recorridos eficientes minimizando distancia, tiempo o costo, evitando explorar todas las combinaciones posibles debido al elevado costo computacional.
+
+La segunda situación corresponde a la ubicación de puntos de servicio o recarga dentro de un mapa. En este caso, las posiciones posibles no son discretas, sino continuas, por lo que las soluciones deben trabajar con coordenadas reales y no únicamente con posiciones predefinidas.
+
+La tercera situación involucra un robot de almacén que opera en un entorno no determinista. Algunas acciones pueden producir diferentes resultados; por ejemplo, una puerta puede abrirse o permanecer cerrada, o un desplazamiento puede completarse parcialmente. Debido a ello, el sistema necesita generar planes capaces de adaptarse a distintos resultados posibles.
+
+Finalmente, el robot debe trabajar con sensores limitados, por lo que no siempre conoce exactamente el estado del entorno ni su ubicación precisa. Esto obliga al sistema a razonar con información parcial y mantener estimaciones sobre los posibles estados en los que podría encontrarse.
+
+\subsection{Separación del problema en cuatro temas}
+
+Con el fin de analizar correctamente cada situación, el problema general se divide en cuatro temas principales:
+
+\begin{enumerate}
+    \item Problemas de optimización y búsqueda local.
+    \item Búsqueda local en espacios continuos.
+    \item Búsqueda con acciones no deterministas.
+    \item Búsqueda en entornos parcialmente observables.
+\end{enumerate}
+
+Cada uno de estos temas requiere técnicas y estrategias distintas, debido a que las características de los problemas cambian significativamente entre un caso y otro.
+
+\subsection{Importancia del modelado}
+
+Antes de seleccionar un algoritmo, es necesario modelar correctamente cada problema. Para ello se deben identificar los siguientes elementos:
+
+\begin{itemize}
+    \item Estados posibles del sistema.
+    \item Acciones que el agente puede realizar.
+    \item Objetivo que se desea alcanzar.
+    \item Restricciones o dificultades principales del entorno.
+\end{itemize}
+
+El modelado permite comprender la naturaleza del problema y determinar qué estrategia resulta más adecuada para resolverlo.
+
+\subsection{Enfoque general de solución}
+
+El presente trabajo no busca utilizar una única técnica para todos los casos, sino seleccionar el enfoque más apropiado según las características específicas de cada situación.
+
+En problemas de optimización se utilizarán estrategias de búsqueda local para mejorar soluciones progresivamente. En espacios continuos se aplicarán técnicas de optimización sobre coordenadas reales. Para situaciones no deterministas se trabajará con planes condicionales y estructuras ramificadas. Finalmente, en entornos parcialmente observables se empleará razonamiento basado en estados de creencia e información parcial.
+
+De esta manera, se pretende demostrar que la elección de un algoritmo depende directamente del tipo de problema, del entorno y del nivel de incertidumbre presente.

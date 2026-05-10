@@ -1,0 +1,236 @@
+PWD d:\Ing de sistemas\Académico\INGENIERIA DE SISTEMAS 2023-1 UNSAAC\CICLO 7\INTELIGENCIA ARTIFICIAL\Actividad 1 - Búsqueda en entornos complejos
+INPUT C:\Users\diego\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\Ing de sistemas\Académico\INGENIERIA DE SISTEMAS 2023-1 UNSAAC\CICLO 7\INTELIGENCIA ARTIFICIAL\Actividad 1 - Búsqueda en entornos complejos\main.tex
+OUTPUT main.log
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\main.aux
+INPUT .\main.aux
+INPUT main.aux
+INPUT .\introduccion.aux
+INPUT .\introduccion.aux
+INPUT introduccion.aux
+INPUT .\caso_general.aux
+INPUT .\caso_general.aux
+INPUT caso_general.aux
+INPUT .\problema1_optimizacion.aux
+INPUT .\problema1_optimizacion.aux
+INPUT problema1_optimizacion.aux
+INPUT .\problema2_continuo.aux
+INPUT .\problema2_continuo.aux
+INPUT problema2_continuo.aux
+INPUT .\problema3_nodeterminista.aux
+INPUT .\problema3_nodeterminista.aux
+INPUT problema3_nodeterminista.aux
+INPUT .\problema4_parcialmente_observable.aux
+INPUT .\problema4_parcialmente_observable.aux
+INPUT problema4_parcialmente_observable.aux
+INPUT .\comparacion.aux
+INPUT .\comparacion.aux
+INPUT comparacion.aux
+INPUT .\conclusiones.aux
+INPUT .\conclusiones.aux
+INPUT conclusiones.aux
+OUTPUT main.aux
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\Escudo_UNSAAC (2).png
+INPUT .\Escudo_UNSAAC (2).png
+INPUT .\Escudo_UNSAAC (2).png
+INPUT .\Escudo_UNSAAC (2).png
+OUTPUT main.pdf
+INPUT .\Escudo_UNSAAC (2).png
+INPUT .\Escudo_UNSAAC (2).png
+INPUT .\Escudo_UNSAAC (2).png
+INPUT .\logoU (2).png
+INPUT .\logoU (2).png
+INPUT .\logoU (2).png
+INPUT .\logoU (2).png
+INPUT .\logoU (2).png
+INPUT .\logoU (2).png
+INPUT .\logoU (2).png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcbx2488.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\main.toc
+INPUT .\main.toc
+INPUT main.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+OUTPUT main.toc
+INPUT .\introduccion.tex
+INPUT .\introduccion.tex
+OUTPUT introduccion.aux
+INPUT .\introduccion.tex
+INPUT .\introduccion.tex
+INPUT introduccion.tex
+INPUT .\caso_general.tex
+INPUT .\caso_general.tex
+OUTPUT caso_general.aux
+INPUT .\caso_general.tex
+INPUT .\caso_general.tex
+INPUT caso_general.tex
+INPUT .\problema1_optimizacion.tex
+INPUT .\problema1_optimizacion.tex
+OUTPUT problema1_optimizacion.aux
+INPUT .\problema1_optimizacion.tex
+INPUT .\problema1_optimizacion.tex
+INPUT problema1_optimizacion.tex
+INPUT .\problema2_continuo.tex
+INPUT .\problema2_continuo.tex
+OUTPUT problema2_continuo.aux
+INPUT .\problema2_continuo.tex
+INPUT .\problema2_continuo.tex
+INPUT problema2_continuo.tex
+INPUT .\problema3_nodeterminista.tex
+INPUT .\problema3_nodeterminista.tex
+OUTPUT problema3_nodeterminista.aux
+INPUT .\problema3_nodeterminista.tex
+INPUT .\problema3_nodeterminista.tex
+INPUT problema3_nodeterminista.tex
+INPUT .\problema4_parcialmente_observable.tex
+INPUT .\problema4_parcialmente_observable.tex
+OUTPUT problema4_parcialmente_observable.aux
+INPUT .\problema4_parcialmente_observable.tex
+INPUT .\problema4_parcialmente_observable.tex
+INPUT problema4_parcialmente_observable.tex
+INPUT .\comparacion.tex
+INPUT .\comparacion.tex
+OUTPUT comparacion.aux
+INPUT .\comparacion.tex
+INPUT .\comparacion.tex
+INPUT comparacion.tex
+INPUT .\conclusiones.tex
+INPUT .\conclusiones.tex
+OUTPUT conclusiones.aux
+INPUT .\conclusiones.tex
+INPUT .\conclusiones.tex
+INPUT conclusiones.tex
+INPUT main.aux
+INPUT .\introduccion.aux
+INPUT .\introduccion.aux
+INPUT introduccion.aux
+INPUT .\caso_general.aux
+INPUT .\caso_general.aux
+INPUT caso_general.aux
+INPUT .\problema1_optimizacion.aux
+INPUT .\problema1_optimizacion.aux
+INPUT problema1_optimizacion.aux
+INPUT .\problema2_continuo.aux
+INPUT .\problema2_continuo.aux
+INPUT problema2_continuo.aux
+INPUT .\problema3_nodeterminista.aux
+INPUT .\problema3_nodeterminista.aux
+INPUT problema3_nodeterminista.aux
+INPUT .\problema4_parcialmente_observable.aux
+INPUT .\problema4_parcialmente_observable.aux
+INPUT problema4_parcialmente_observable.aux
+INPUT .\comparacion.aux
+INPUT .\comparacion.aux
+INPUT comparacion.aux
+INPUT .\conclusiones.aux
+INPUT .\conclusiones.aux
+INPUT conclusiones.aux
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx2488.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx2488.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb

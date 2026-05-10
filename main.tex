@@ -1,0 +1,82 @@
+\documentclass[12pt]{article} % Define el tipo de documento
+
+% --- Paquetes Esenciales ---
+\usepackage[utf8]{inputenc}    % Codificación de caracteres
+\usepackage[spanish]{babel}    % Idioma español
+\usepackage[margin=2.5cm]{geometry} % Márgenes
+\usepackage{graphicx}          % Para insertar imágenes
+\usepackage{amsmath, amssymb}  % Para símbolos matemáticos
+\usepackage{setspace}          % Control de interlineado
+\onehalfspacing                % Interlineado 1.5
+
+\begin{document} % INICIO DEL DOCUMENTO (Faltaba esto)
+
+% ------------------------------------------------
+% CARÁTULA
+% ------------------------------------------------
+\begin{titlepage}
+
+\centering
+
+{\Huge\bfseries Universidad Nacional de San Antonio Abad del Cusco \par}
+
+\vspace{0.3cm}
+\rule{\textwidth}{0.6pt}
+
+{\Large Facultad de Ingeniería Eléctrica, Electrónica, Informática y Mecánica \par}
+
+\rule{\textwidth}{0.6pt}
+
+\vspace{0.3cm}
+
+{\Large Escuela Profesional de Ingeniería Informática y de Sistemas \par}
+
+\vspace{1cm}
+
+\begin{tabular}{cc}
+% Asegúrate de que estos archivos estén en la misma carpeta que tu .tex
+\includegraphics[width=0.25\textwidth]{Escudo_UNSAAC (2).png} & 
+\includegraphics[width=0.25\textwidth]{logoU (2).png}
+\end{tabular}
+
+\vspace{1.2cm}
+
+{\Huge\bfseries ACTIVIDAD N° 01\par}
+
+\vspace{0.2cm}
+
+{\Huge\bfseries Búsqueda en entornos complejos \par}
+
+\vspace{1.2cm}
+
+\large
+
+\textbf{Asignatura:} Inteligencia Artificial \\[0.3cm]
+\textbf{Docente:} Jisbaj Gamarra Salas \\[0.3cm]
+\textbf{Estudiante:} Flavio Antony Cabeza Huillca \\[0.3cm]
+\textbf{Semestre:} 2026-I        
+{\Large Cusco -- Perú---2026 \par}
+
+
+\end{titlepage}
+
+% ------------------------------------------------
+% ÍNDICE
+% ------------------------------------------------
+\tableofcontents
+\newpage
+
+% ------------------------------------------------
+% CUERPO DEL TRABAJO
+% ------------------------------------------------
+
+\include{introduccion}
+\include{caso_general}
+\include{problema1_optimizacion}
+\include{problema2_continuo}
+\include{problema3_nodeterminista}
+\include{problema4_parcialmente_observable}
+\include{comparacion}
+\include{conclusiones}
+
+\end{document} % FIN DEL DOCUMENTO
